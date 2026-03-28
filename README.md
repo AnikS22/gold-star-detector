@@ -14,7 +14,7 @@ Open the URL Vite prints (usually `http://localhost:8080`). **← →** or **Spa
 
 ## Extra images (`media/`)
 
-Bundled **presentation PNGs**, **deck JPEGs**, and **synthetic unlabeled** EM-style patches for slides, posters, or social graphics. See [`media/README.md`](media/README.md). Regenerate synthetics: `python media/scripts/generate_synthetic_unlabeled.py`.
+Bundled **presentation PNGs**, **deck JPEGs**, and **real unlabeled** TEM crops (from the same micrographs as the deck). See [`media/README.md`](media/README.md). Refresh crops after changing `src/assets/`: `python media/scripts/export_unlabeled_from_assets.py`.
 
 ## MidasMap figures (`public/midasmap-figures/`)
 

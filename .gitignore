@@ -23,7 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 .vercel
-
-# Optional local EM exports (keep folder in clone via .gitkeep)
-media/unlabeled-synapses/real/*
-!media/unlabeled-synapses/real/.gitkeep
